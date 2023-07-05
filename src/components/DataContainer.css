@@ -1,0 +1,47 @@
+.data_container {
+    width: 310px;
+    height: 210px;
+    background: linear-gradient(11deg, #e5f2ff 79%, transparent 20%);
+    box-shadow: -8px 8px 6px -7px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img_temp {
+    display: flex;
+    justify-content: space-around;
+  }
+  .image img {
+      width: 150px;
+      transition: 0.5s;
+  }
+  .image img:hover {
+      transform: scale(0.9);
+  }
+  .time {
+      width: 80px;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: end;
+      color: #026eed;
+  }
+  .city {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .time_city {
+    display: flex;
+    justify-content: space-between;
+    color: #026eed;
+  }
+  .temperature {
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 115px;
+    color: #026eed;
+  }
+  
