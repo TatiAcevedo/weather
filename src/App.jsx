@@ -6,8 +6,12 @@ import { getCurrentWeather } from "./services/getCurrentWeather";
 import DataContainer from "./components/DataContainer";
 
 function App() {
+  const estiloPagina = {
+    backgroundImage: 'https://picsum.photos/id/18/367/267'
+  };
   const [weather, setWeather] = useState(null);
   const [isCelsius, setIsCelsius] = useState(true);
+  
 
   useEffect(() => {
     const loadWeather = async () => {
@@ -42,7 +46,9 @@ function App() {
         </div>
       ) : (
         <p className="loading">Loading weather ... </p>
+        
       )}
+      
     </div>
   );
 }
