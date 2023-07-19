@@ -7,7 +7,7 @@ import DataContainer from "./components/DataContainer";
 
 function App() {
   const estiloPagina = {
-    backgroundImage: 'https://picsum.photos/id/18/367/267'
+    backgroundImage: 'https://fastly.picsum.photos/id/33/5000/3333.jpg?hmac=h5NVRcUXmsWm612YQOroHSA5n9R7gxZgoP60LHBPHtw'
   };
   const [weather, setWeather] = useState(null);
   const [isCelsius, setIsCelsius] = useState(true);
