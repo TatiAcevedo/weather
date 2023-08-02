@@ -1,7 +1,7 @@
 .data_container {
     width: 310px;
     height: 280px;
-    background: linear-gradient(11deg, #e5f2ff 79%, transparent 20%);
+    background: linear-gradient(11deg, #062405 79%, transparent 20%);
     box-shadow: -8px 8px 6px -7px rgba(56, 104, 141, 0.25);
     border-radius: 15px;
     padding: 10px;
@@ -25,7 +25,7 @@
       display: flex;
       flex-wrap: wrap;
       text-align: end;
-      color: #026eed;
+      color: #eff2f5;
   }
   .city {
     font-style:oblique;
@@ -36,12 +36,12 @@
   .time_city {
     display: flex;
     justify-content: space-between;
-    color: #026eed;
+    color: #eceff3;
   }
   .temperature {
     font-size: 55px;
     font-weight: 300;
     line-height: 115px;
-    color: #026eed;
+    color: #f7f8fa;
   }
   
